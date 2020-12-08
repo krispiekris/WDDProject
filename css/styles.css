@@ -4,6 +4,10 @@ body {
     font-family: "Nunito" sans-serif;
 }
 
+.tabtab {
+    margin-left: 3.8em
+}
+
 .accordion {
     background-color: #ade8f4;
     color: #444;
