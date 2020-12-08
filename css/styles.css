@@ -27,7 +27,7 @@ body {
   .panel {
     padding: 0 18px;
     display: none;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
   }
 
