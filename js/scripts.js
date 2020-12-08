@@ -51,3 +51,32 @@ fetch("https://coronavirus-monitor.p.rapidapi.com/coronavirus/cases_by_country.p
     console.log(err);
 });
 
+// test accordion
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+  
+
+
+
+
+//test2
+
+$(document).ready(function() {
+  $(".nav-link").click(function() {
+    $(".tab-content").find('.tab-pane').not(':eq('+$(this).index()+')').hide('slow');
+    $(".tab-content").find('.tab-pane').eq($(this).index()).toggle({ direction: "top" }, 2000);
+  });
+});
