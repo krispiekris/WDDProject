@@ -27,7 +27,8 @@
     <!--navbar-->
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
         <a href="./index.html" class="navbar-brand">SUSS</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+        <button onclick="myFunction()" id="myDIV" class="navbar-toggler" data-toggle="collapse" data-target="#navLinks"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navLinks">
@@ -62,7 +63,7 @@
 
                     </div>
                 </li>
-                <a href="" class="nav-link">Act</a>
+                <a href="act.html" class="nav-link">Act</a>
                 </li>
             </ul>
 
@@ -83,13 +84,89 @@
         </div>
     </div> -->
 
-
-
     <div class="container">
-        <div class="row row-content align-items-center  topbottomclass">
-            <iframe
-                src="https://omny.fm/shows/the-fox-news-rundown-1/playlists/fox-news-rundown-global-pandemic/embed?style=cover"
-                width="100%" height="500" frameborder="0" title="Fox News Rundown: Global Pandemic"></iframe>
+        <!-- <div class="row row-content align-items-center  topbottomclass"> -->
+        <!-- <div class="col-1">
+
+            </div> -->
+        <!-- <div class="col-10">
+                <h2 class="">Here you can stay updated about the Pandemic<br>with News and Statistics from reliable
+                    sourses</h2>
+                <p>According to the World Health Organisation everyone should be well informed about cornovirus.
+                </p>
+                <ul>
+                    <li>Follow accurate health advise from your from global but also local authorities</li>
+                    <li>Follow latest news and updates for coronovirus</li>
+                    <li>Avoid spreading rumors</li>
+                    <li>Always check the source of your information</li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+        <div class="row row-content align-items-center topbottomclass">
+            <div class="col-12 ">
+                <h2>Here you can stay updated about the Pandemic</h2>
+                <div class="accordion" id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                <h4>Follow <small>health advise </small></h4>
+                            </button>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                <p>You should follow accurate health advise from your from global but also local
+                                    authorities
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
+                                <h4>Follow <small>the News </small></h4>
+                            </button>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Follow latest news and updates for coronovirus </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree">
+                                <h4>Avoid <small> spreading rumors</small></h4>
+                            </button>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Rumors are made and easily spread nowadays compromising the effect of measures that
+                                    are taken.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                                aria-expanded="false" aria-controls="collapseFour">
+                                <h4>Always <small>check the source of your information </small></h4>
+                            </button>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Whenever you read anything on the internet, you have to check the source that is
+                                    taken from. It is better if you prefer reliable sources.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -101,13 +178,23 @@
         </div>
     </div>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 3698e6009e1b6b2408aff9c2c057672d0945ea43
     <div class="container">
         <div class="row row-content align-items-center  topbottomclass">
-            <a class="twitter-timeline" data-width="500" data-height="600" href="https://twitter.com/ECDC_EU">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+            <div class="col">
+                <iframe
+                    src="https://omny.fm/shows/the-fox-news-rundown-1/playlists/fox-news-rundown-global-pandemic/embed?style=cover"
+                    width="100%" height="450" frameborder="0" title="Fox News Rundown: Global Pandemic"></iframe>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row row-content align-items-center  topbottomclass">
+            <a class="twitter-timeline" data-width="500" data-height="300" href="https://twitter.com/ECDC_EU">Tweets
+                by
+                TwitterDev</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
     </div>
 
