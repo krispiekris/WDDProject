@@ -57,6 +57,11 @@ body {
     transition: background 1500ms;
     
 }
+.navbar.scrolled2 { /*navbar untill a certain point*/
+    background: #ade8f4;
+    transition: background 1500ms;
+    
+}
 
 
 

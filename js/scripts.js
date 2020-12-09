@@ -1,17 +1,22 @@
 
-    $(function () {
-      $(document).scroll(function () {
-        var $nav = $("#mainNavbar");
-        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height()); //when we reach a certain point
-         
-      })
-    })
-
     document.getElementById("myDIV").onclick= function myFunction() 
     {
       var smthng =document.getElementById("mainNavbar");
-      smthng.classList.add("scrolled");
+      smthng.classList.add("scrolled2");
     }
+    
+    
+    
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $("#mainNavbar");
+        
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height()); //when we reach a certain point
+        
+      })
+    })
+  
+    
 
 
     // cases
