@@ -7,6 +7,7 @@ body {
     font-family: "Nunito" sans-serif;
 }
 
+
 .tabtab {
     margin-left: 3.2em
 }
@@ -40,11 +41,14 @@ body {
 }
 
 #mainNavbar .nav-link:hover {
-    color: #3E494E;
+    color: black;
+    font-weight: 350;
+    transition: 250ms;
+
 }
 
 #mainNavbar .nav-link {
-    color: white;
+    color: #585e63;
 }
 
 
