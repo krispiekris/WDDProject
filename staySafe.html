@@ -16,6 +16,7 @@
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com">536
 35 -->
     <!-- <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet"> -->
+    
 </head>
 
 <body>
@@ -82,6 +83,7 @@
                     <button class="tablinks" onclick="openCategory(event, 'kids')" id="defaultOpen">Kids</button>
                     <button class="tablinks" onclick="openCategory(event, 'companies')">Company</button>
                     <button class="tablinks" onclick="openCategory(event, 'everyone')">everyone</button>
+                    <button class="tablinks" onclick="openCategory(event, 'Mario')">mario</button>
                 </div>
 
             </div>
@@ -108,6 +110,14 @@
                     <h3>Everyone</h3>
                     <p>Random information.</p>
                 </div>
+                <div id="Mario" class="tabcontent">
+                    <h3>Mario</h3>
+                    <p>Random information.</p>
+                </div>
+
+
+
+
             </div>
         </div>
 
@@ -186,7 +196,7 @@
             </div>
         </div>
     </footer>
-
+    
 
     <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
@@ -197,10 +207,9 @@
     <!-- endbuild -->
 
 
-
     <script>// Get the element with id="defaultOpen" and click on it
         document.getElementById("defaultOpen").click();</script>
-
+    
 </body>
 
 </html>
