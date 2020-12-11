@@ -2,76 +2,70 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>News</title>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
-
-    <title>News</title>
+    <!-- endbuild -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
 </head>
 
 <body>
+    <!--navbar-->
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="/index.html" class="navbar-brand"></a>
+        <button onclick="my2Function()" id="my2DIV" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="/index.html" class="nav-link "> <strong>Home</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a href="/staySafe.html" class="nav-link">Stay Safe</a>
+                </li>
 
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Stay Updated
+                    </a>
+                    <div class="dropdown-menu dropdownNewTheme" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/news.html">News</a>
+                        <a class="dropdown-item" href="/fakeNews.html">Fake News</a>
 
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="act.html" class="nav-link">Act</a>
+                </li>
+                <li class="nav-item">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        About us
+                    </a>
+                    <div class="dropdown-menu dropdownNewTheme" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/WhoWeAre.html">Who we are</a>
+                        <a class="dropdown-item" href="/contactus.html">Contact us</a>
 
-     <!--navbar-->
-  <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-    <a href="/index.html" class="navbar-brand"></a>
-    <button onclick="my2Function()" id="my2DIV" class="navbar-toggler" data-toggle="collapse" data-target="#navLinks"
-      aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navLinks">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a href="/index.html" class="nav-link "> <strong>Home</strong></a>
-        </li>
-        <li class="nav-item">
-          <a href="/staySafe.html" class="nav-link">Stay Safe</a>
-        </li>  
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Stay Updated
-          </a>
-          <div class="dropdown-menu dropdownNewTheme" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="/news.html">News</a>
-            <a class="dropdown-item" href="/fakeNews.html">Fake News</a>
+                    </div>
+                </li>
 
-          </div>
-        </li>
-        <li class="nav-item">
-          <a href="act.html" class="nav-link">Act</a>
-        </li>
-        <li class="nav-item">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            About us
-          </a>
-          <div class="dropdown-menu dropdownNewTheme" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="/WhoWeAre.html">Who we are</a>
-            <a class="dropdown-item" href="/contactus.html">Contact us</a>
+                </li>
+            </ul>
 
-          </div>
-        </li>
-        
-        </li>
-      </ul>
-
-    </div>
-  </nav>
+        </div>
+    </nav>
 
 
 
@@ -254,23 +248,19 @@
 
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-auto">
-                        <p>&copy; Copyright 2020 SUSS</p>
-                    </div>
-                </div>
             </div>
         </div>
     </footer>
 
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- <script srt="scripts.js"></script> -->
     <script src="/js/scripts.js"></script>
+    <!-- endbuild -->
 
 </body>
 
