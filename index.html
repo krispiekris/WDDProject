@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/styles.css">
-    <!-- endbuild -->
+  <!-- endbuild -->
   <!-- <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet"> -->
 
   <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
@@ -78,13 +78,10 @@
 
     <div class="container">
       <div class="row text-center">
-        <div class="col-10 col-lg-12">
+        <div class="col-12 col-lg-12">
 
-          <img src="/images/jumbo.png">
-          <!-- <h1><strong>Stay Updated</strong></h1>
-              </div>
-              <div class="col-lg-12">
-                <h1 class="tabtab"><strong>Stay Safe</strong></h1> -->
+          <img class="img-fluid" src="/images/jumbo.png">
+          
         </div>
       </div>
     </div>
@@ -97,171 +94,103 @@
     <div class="row row-content align-items-start topbottomclass">
       <div class="col-sm-12 col-lg-7">
 
-        
 
-<div class="accordion2">
-	<div class="accordion2-header" id="smthsmth">Et quasi architecto</div>
-	<div class="accordion2-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
 
-	
-</div>
+        <div class="accordion2">
+          <div class="accordion2-header" id="smthsmth">Et quasi architecto</div>
+          <div class="accordion2-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+            beatae vitae dicta sunt explicabo.</div>
+
+
+        </div>
 
 
       </div>
-      <div class="col-sm-12 col-lg-5 ">
+      <div class="col-sm-12 col-lg-5">
+
+
+        <div class="row flex-column">
+          <div class="col-xl-3 col-md-3 mb-4">
+            <div class="card border-left-info shadow h-100 py-2">
+              <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                  <div class="col mr-2">
+                    <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                      Total Cases
+                    </div>
+                    <div class="row no-gutters align-items-center">
+                      <div class="col-auto">
+                        <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800 worldData">
+                          Loading...
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <i class="fa fa-users fa-2x text-info"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-3 mb-4">
+            <div class="card border-left-danger shadow h-100 py-2">
+              <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                  <div class="col mr-2">
+                    <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">
+                      Total Death
+                    </div>
+                    <div class="row no-gutters align-items-center">
+                      <div class="col-auto">
+                        <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800 worldData">
+                          Loading...
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <i class="fa fa-bed fa-2x text-danger"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-3 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+              <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                  <div class="col mr-2">
+                    <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                      Total Recovered
+                    </div>
+                    <div class="row no-gutters align-items-center">
+                      <div class="col-auto">
+                        <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800 worldData">
+                          Loading...
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <i class="fa fa-child fa-2x text-success"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </div>
   </div>
 
 
-  <div class="container">
-    <div class="row row-content align-items-start topbottomclass">
-      <div class="col-sm-12 col-lg-7">
-        <button class="accordion"><strong>Welcome to our webpage</strong></button>
-        <div class="panel">
-          <p>Hi there!
-            <br><br>
-            Welcome to our webpage!
 
-            We created this webpage in order to keep you
-            updated about the Covid-19 situation around the world.
-            After every visit of our webpage
-            your knowledge will increase regarding the "Covid-19" and also other pandemics.
-          </p>
-        </div>
-      </div>
-
-
-
-
-
-      <div class="col-sm-12 col-lg-5 ">
-        
-        
-        <div class="card text-center ">
-         
-          <div class="card-body bg-mycsss  ">
-
-
-
-
-            <div class="total_case_box">
-              <h2>Total Cases in the world</h2>
-              <p id="total_cases"></p>
-            </div>
-            <div class="box">
-              <h2>Total Deaths</h2>
-              <p id="total_death"> </p>
-            </div>
-
-            <div class="box">
-              <h2>Total Recovery</h2>
-              <p id="total_recovered"> </p>
-            </div>
-
-            <div class="box">
-              <h2>New case</h2>
-              <p id="new_case"> </p>
-            </div>
-
-            <div class="box">
-              <h2>New Deaths</h2>
-              <p id="new_death"> </p>
-            </div>
-          </div>
-        
-        </div>
-
-
-
-
-
-
-        
-      </div>
-    </div>
-    
- 
-  
-    <div class="row flex-column">
-      <div class="col-xl-3 col-md-3 mb-4">
-        <div class="card border-left-info shadow h-100 py-2">
-          <div class="card-body">
-            <div class="row no-gutters align-items-center">
-              <div class="col mr-2">
-                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
-                  Total Cases
-                </div>
-                <div class="row no-gutters align-items-center">
-                  <div class="col-auto">
-                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800 worldData">
-                      Loading...
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-auto">
-                <i class="fa fa-users fa-2x text-info"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-xl-3 col-md-3 mb-4">
-        <div class="card border-left-danger shadow h-100 py-2">
-          <div class="card-body">
-            <div class="row no-gutters align-items-center">
-              <div class="col mr-2">
-                <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">
-                  Total Death
-                </div>
-                <div class="row no-gutters align-items-center">
-                  <div class="col-auto">
-                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800 worldData">
-                      Loading...
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-auto">
-                <i class="fa fa-bed fa-2x text-danger"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-xl-3 col-md-3 mb-4">
-        <div class="card border-left-success shadow h-100 py-2">
-          <div class="card-body">
-            <div class="row no-gutters align-items-center">
-              <div class="col mr-2">
-                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                  Total Recovered
-                </div>
-                <div class="row no-gutters align-items-center">
-                  <div class="col-auto">
-                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800 worldData">
-                      Loading...
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-auto">
-                <i class="fa fa-child fa-2x text-success"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-  
-  
- 
-
-  </div>
   <!-- </div>
   </div> -->
 
@@ -435,48 +364,7 @@
       </div>
     </div>
   </footer>
-<script>
-  
-var new_cases = document.getElementById("new_case");
-var new_death = document.getElementById("new_death");
-var total_death = document.getElementById("total_death");
-var total_recovered = document.getElementById("total_recovered");
-var total_cases = document.getElementById("total_cases");
-var table = document.getElementById('countries_stat')
 
-fetch("https://coronavirus-monitor.p.rapidapi.com/coronavirus/worldstat.php", {
-  "method": "GET",
-  "headers": {
-    "x-rapidapi-host": "coronavirus-monitor.p.rapidapi.com",
-    "x-rapidapi-key": "f93ff5e3afmsh1c47b09be99cc61p1ca087jsnbd673fdc9881"
-  }
-})
-  .then(response => response.json().then(data => {
-    console.log(data);
-    total_cases.innerHTML = data.total_cases;
-    new_cases.innerHTML = data.new_cases;
-    new_death.innerHTML = data.new_deaths;
-    total_death.innerHTML = data.total_deaths;
-    total_recovered.innerHTML = data.total_recovered;
-
-  })).catch(err => {
-    console.log(err);
-  });
-
-//Fetching The Case by Country Data
-fetch("https://coronavirus-monitor.p.rapidapi.com/coronavirus/cases_by_country.php", {
-  "method": "GET",
-  "headers": {
-    "x-rapidapi-host": "coronavirus-monitor.p.rapidapi.com",
-    "x-rapidapi-key": "f93ff5e3afmsh1c47b09be99cc61p1ca087jsnbd673fdc9881"
-  }
-})
-
-  .catch(err => {
-    console.log(err);
-  });
-
-</script>
 
   <!-- jQuery first, then Tether, then Bootstrap JS. -->
   <!-- build:js js/main.js -->
@@ -486,31 +374,33 @@ fetch("https://coronavirus-monitor.p.rapidapi.com/coronavirus/cases_by_country.p
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="/js/scripts.js"></script>
   <!-- endbuild -->
+
+
   <script>function numberWithCommas(x) {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-  }
-  
-  allData = "https://coronavirus-19-api.herokuapp.com/all";
-  data = ""
-  
-  function xhrRequest(url) {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
-        data = xhttp.responseText;
-        // alert(data);
-        dataParsed = JSON.parse(data);
-        dataField = document.getElementsByClassName('worldData');
-        dataField[0].innerText = numberWithCommas(dataParsed.cases);
-        dataField[1].innerText = numberWithCommas(dataParsed.deaths);
-        dataField[2].innerText = numberWithCommas(dataParsed.recovered);
-        // alert(dataParsed);
-      }
-    };
-    xhttp.open("GET", url, true);
-    xhttp.send();
-  }
-  xhrRequest(allData);</script>
+      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
+    allData = "https://coronavirus-19-api.herokuapp.com/all";
+    data = ""
+
+    function xhrRequest(url) {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          data = xhttp.responseText;
+          // alert(data);
+          dataParsed = JSON.parse(data);
+          dataField = document.getElementsByClassName('worldData');
+          dataField[0].innerText = numberWithCommas(dataParsed.cases);
+          dataField[1].innerText = numberWithCommas(dataParsed.deaths);
+          dataField[2].innerText = numberWithCommas(dataParsed.recovered);
+          // alert(dataParsed);
+        }
+      };
+      xhttp.open("GET", url, true);
+      xhttp.send();
+    }
+    xhrRequest(allData);</script>
 </body>
 
 </html>

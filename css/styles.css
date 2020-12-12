@@ -7,6 +7,15 @@ body {
     font-family: "Nunito" sans-serif;
 }
 
+.navbar-dark .navbar-toggler {
+  color: rgba(255,255,255,.5);
+  border-color: rgba(255,255,255,.1);
+}
+/* .navbar-dark .navbar-toggler-icon {
+  background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+} */
+
+
 
 .accordion {
     background-color: #ade8f4;
@@ -82,7 +91,7 @@ body {
     /* background-color: #ade8f4;
     margin:0px auto;*/
     padding: 20px 0px 20px 0px; 
-    
+    width: 100%;
     margin:0px auto;
     background: #ade8f4;
     color:black;
@@ -236,7 +245,7 @@ ul{
 .our-webcoderskull .cnt-block{ 
    float:left; 
    width:100%; 
-   background:#4ADFCC;
+   background:#ade8f4;
    padding:30px 20px; 
    text-align:center; 
    border:2px solid #d5d5d5;
@@ -293,7 +302,7 @@ ul{
 /* middle WWA */
 
 .cardWhoWeAre {
-  background-color: #699e91;
+  background-color: #ade8f4;
 }
 
 /* Quotes bottom WhoWeAre*/
@@ -320,10 +329,10 @@ blockquote{
     margin-top: -50px;
     padding-top: -100px;
     border-radius: 17px;
-    background-color: #4ADFCC;
+    background-color: #ade8f4;
     margin-top: 25px;
-    color:white;
-    width: 325px;
+    color:blackd;
+    width: 370px;
     box-shadow: 2px 2px 2px 2px #E0E0E0;
     
     
@@ -334,7 +343,7 @@ blockquote{
     margin-top: -10px;
     font-weight: bold;
     font-size:100px;
-    color:white;
+    color:black;
     font-family: "Times New Roman", Georgia, Serif;
     
 }

@@ -7,20 +7,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <!-- <base href="/"> -->
     <!-- Bootstrap CSS -->
     <!-- build:css css/main.css -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <!-- endbuild -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">536
+35 -->
     <!-- <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet"> -->
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
-
+    
 </head>
 
-<body>
-
+<body id="bootstrap-overrides">
     <!--navbar-->
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
         <a href="/index.html" class="navbar-brand"></a>
@@ -69,6 +68,13 @@
 
         </div>
     </nav>
+
+    <div class="topbottomclass text-center">
+        <h1>Fake News</h1>
+    </div>
+
+
+
 
 
     <div class="topbottomclass">
@@ -446,12 +452,14 @@
         </div>
     </div>
 
+
     <div class="topbottomclass"></div>
     <div class="topbottomclass"></div>
     <div class="topbottomclass"></div>
+
     <!--footer-->
-    <footer class="topbottomclass">
-        <div class="footer topbottomclass">
+    <footer class="">
+        <div class="footer ">
             <div class="container">
                 <div class="row">
                     <div class="col-12  col-sm-2">
@@ -504,8 +512,8 @@
             </div>
         </div>
     </footer>
+    
 
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
@@ -513,7 +521,11 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/js/scripts.js"></script>
     <!-- endbuild -->
-</body>
 
+
+    <!-- <script>
+        document.getElementById("defaultOpen").click();</script> -->
+    
+</body>
 
 </html>
