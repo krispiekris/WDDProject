@@ -8,10 +8,6 @@ body {
 }
 
 
-.tabtab {
-    margin-left: 3.2em
-}
-
 .accordion {
     background-color: #ade8f4;
     color: #444;
@@ -89,7 +85,7 @@ body {
     
     margin:0px auto;
     background: #ade8f4;
-    color:floralwhite;
+    color:black;
     font-family: "Nunito" sans-serif;
     
    
@@ -102,7 +98,7 @@ body {
     background: #ade8f4;
     color: #3E494E;
     /* font-family: "Nunito" sans-serif; */
-    font-family: 'Castoro', serif;
+    /* font-family: 'Castoro', serif; */
     }
 
     nav ul ul{
@@ -182,7 +178,7 @@ background-color: #ade8f4;
 }
 
 
-/* Mario WhoWeAre CSS test  */
+/* Mario WhoWeAre CSS Top (WeBCoderSkull)  */
 
 .row.heading h2 {
     color: #fff;
@@ -237,12 +233,6 @@ ul{
 	display:inline-block;
 }
 
-/* background color */
-/* .our-webcoderskull **WHO WE ARE**{
-  
-    
-
-} */
 .our-webcoderskull .cnt-block{ 
    float:left; 
    width:100%; 
@@ -300,7 +290,13 @@ ul{
    color:#025a8e;
 }
 
-/* test123 */
+/* middle WWA */
+
+.cardWhoWeAre {
+  background-color: #699e91;
+}
+
+/* Quotes bottom WhoWeAre*/
 
 .row {
     display: flex;
@@ -356,6 +352,9 @@ blockquote{
 
 .bg-mycsss{
 background-color: #ADE8F4;
+border-radius: 1em;
+  
+  
 }
 .topbottomclass{
     padding-top: 70px;
@@ -561,4 +560,104 @@ background-color: #ADE8F4;
   height: 100%;
   background: #FFFFFF;
   transform-origin: 0 0;
+}
+
+
+
+
+/* style try */
+
+#bootstrap-overrides .pillclass{
+ 
+  background-color: #ade8f4 ;
+  border-radius: 1em;
+  padding: 20px;
+  margin:10px;
+}
+
+ a  {
+color: #00008b;
+}
+
+
+#activePill div .active{
+  
+  background-color: #1ac4e7 ;
+  color: black;
+  
+  
+  
+}
+#v-pills-tab div{
+  
+  
+  color:#00008b;
+  
+}
+.pointer {cursor: pointer;
+  /* text-align: center; */
+  font-weight: 470;
+  
+}
+
+.pointer:hover{
+  background: #00000017;
+  text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.accordion2 {
+	background: linear-gradient(to bottom right, white, #F8F8F8);
+	max-width: 400px;
+	background: white;
+	margin: 0 auto;
+  box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3), 0 35px 50px -25px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
+}
+
+.accordion2-header {
+	border-bottom: 1px solid #DDE0E7;
+	color: #2a313a;
+	cursor: pointer;
+	font-weight: 700;
+	padding: 1.5rem;
+}
+
+.accordion2-header:hover {
+	background: #F6F7F9;
+}
+
+.accordion2-content {
+	display: none;
+	border-bottom: 1px solid #DDE0E7;
+	background: #ade8f4;
+	padding: 1.5rem;
+	color: #4a5666;
+}
+
+.accordion2-header::before {
+	content: '';
+	vertical-align: middle;
+	display: inline-block;
+	width: .75rem;
+	height: .75rem;
+	border-radius: 50%;
+	background-color: #B1B5BE;
+	margin-right: .75rem;
+}
+
+.active.accordion2-header::before {
+	background-color: blue;
 }

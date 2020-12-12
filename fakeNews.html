@@ -74,35 +74,33 @@
     <div class="topbottomclass">
         <div class="container ind-module">
             <div class="row col-auto">
-                <div class="col-md-12 text-center">
-                    <h1 class="title-underline"><strong>Fake News</strong></h1>
-                </div>
-                <div class="col-12 col-sm-3 mt-20">
-                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <a class="nav-link active" id="v-pills-5G-tab" data-toggle="pill" href="#v-pills-5G" role="tab"
-                            aria-controls="v-pills-5G" aria-selected="true">5G Mobile networks</a>
-                        <a class="nav-link" id="v-pills-crm-tab" data-toggle="pill" href="#v-pills-Vaccaine" role="tab"
-                            aria-controls="v-pills-Vaccaine" aria-selected="false">Vaccines</a>
-                        <a class="nav-link" id="v-pills-Antibiotics-tab" data-toggle="pill" href="#v-pills-Antibiotics"
-                            role="tab" aria-controls="v-pills-Antibiotics" aria-selected="false">Antibiotics</a>
-                        <a class="nav-link" id="v-pills-mosquito-tab" data-toggle="pill" href="#v-pills-mosquito"
-                            role="tab" aria-controls="v-pills-mosquito" aria-selected="false">Mosquito</a>
-                        <a class="nav-link" id="v-pills-pepper-tab" data-toggle="pill" href="#v-pills-pepper" role="tab"
-                            aria-controls="v-pills-pepper" aria-selected="true">Food</a>
-                        <a class="nav-link" id="v-pills-mask-tab" data-toggle="pill" href="#v-pills-mask" role="tab"
-                            aria-controls="v-pills-mask" aria-selected="false">Exercise and Mask?</a>
-                        <a class="nav-link" id="v-pills-methanol-tab" data-toggle="pill" href="#v-pills-methanol"
-                            role="tab" aria-controls="v-pills-methanol" aria-selected="false">Drinking methanol</a>
-                        <a class="nav-link" id="v-pills-weather-tab" data-toggle="pill" href="#v-pills-weather"
-                            role="tab" aria-controls="v-pills-weather" aria-selected="false">Who can get the virus</a>
+                
+                <div id="activePill" class="col-12 col-sm-3 mt-20">
+                    <div class="nav flex-column nav-pills pillclass " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <div class="nav-link hvr pointer active" id="v-pills-5G-tab" data-toggle="pill" href="#v-pills-5G" role="tab"
+                            aria-controls="v-pills-5G" aria-selected="true">5G Mobile networks</div>
+                        <div class="nav-link pointer " id="v-pills-crm-tab" data-toggle="pill" href="#v-pills-Vaccaine" role="tab"
+                            aria-controls="v-pills-Vaccaine" aria-selected="false">Vaccines</div>
+                        <div class="nav-link pointer" id="v-pills-Antibiotics-tab" data-toggle="pill" href="#v-pills-Antibiotics"
+                            role="tab" aria-controls="v-pills-Antibiotics" aria-selected="false">Antibiotics</div>
+                        <div class="nav-link pointer" id="v-pills-mosquito-tab" data-toggle="pill" href="#v-pills-mosquito"
+                            role="tab" aria-controls="v-pills-mosquito" aria-selected="false">Mosquito</div>
+                        <div class="nav-link pointer" id="v-pills-pepper-tab" data-toggle="pill" href="#v-pills-pepper" role="tab"
+                            aria-controls="v-pills-pepper" aria-selected="true">Food</div>
+                        <div class="nav-link pointer" id="v-pills-mask-tab" data-toggle="pill" href="#v-pills-mask" role="tab"
+                            aria-controls="v-pills-mask" aria-selected="false">Exercise and Mask?</div>
+                        <div class="nav-link pointer" id="v-pills-methanol-tab" data-toggle="pill" href="#v-pills-methanol"
+                            role="tab" aria-controls="v-pills-methanol" aria-selected="false">Drinking methanol</div>
+                        <div class="nav-link pointer" id="v-pills-weather-tab" data-toggle="pill" href="#v-pills-weather"
+                            role="tab" aria-controls="v-pills-weather" aria-selected="false">Who can get the virus</div>
                     </div>
 
 
                 </div>
 
                 <div class="col-12 col-sm-9">
-                    <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-5G" role="tabpanel"
+                    <div class="tab-content " id="v-pills-tabContent">
+                        <div class="tab-pane pillclass fade show active" id="v-pills-5G" role="tabpanel"
                             aria-labelledby="v-pills-5G-tab">
                             <section id="5G">
                                 <div>
@@ -130,7 +128,7 @@
                             </section>
                         </div>
 
-                        <div class="tab-pane" id="v-pills-Vaccaine" role="tabpanel"
+                        <div class="tab-pane pillclass" id="v-pills-Vaccaine" role="tabpanel"
                             aria-labelledby="v-pills-Vaccaine-tab">
                             <section id="Vaccaine">
                                 <div>
@@ -220,7 +218,7 @@
                             </section>
                         </div>
 
-                        <div class="tab-pane" id="v-pills-Antibiotics" role="tabpanel"
+                        <div class="tab-pane pillclass" id="v-pills-Antibiotics" role="tabpanel"
                             aria-labelledby="v-pills-Antibiotics-tab">
                             <section id="Antibiotics">
                                 <div>
@@ -254,7 +252,7 @@
                             </section>
                         </div>
 
-                        <div class="tab-pane" id="v-pills-mosquito" role="tabpanel"
+                        <div class="tab-pane pillclass" id="v-pills-mosquito" role="tabpanel"
                             aria-labelledby="v-pills-mosquito-tab">
                             <section id="mosquito">
                                 <div>
@@ -270,31 +268,28 @@
                                                 style="border-radius: 50%;">
                                         </div>
                                     </div>
-                                    <div>
-
-                                        <br>
-                                        <p class="text-justify"><strong>The COVID-19 virus CANNOT be spread through
-                                                mosquito
-                                                bites</strong><br>
-                                            To date there has been no information nor evidence to
-                                            suggest that the new coronavirus could be transmitted by mosquitoes. The new
-                                            coronavirus is a respiratory virus which spreads primarily through droplets
-                                            generated when an infected person coughs or sneezes, or through droplets of
-                                            saliva or discharge from the nose. To protect yourself, clean your hands
-                                            frequently with an alcohol-based hand rub or wash them with soap and water.
-                                            Also, avoid close contact with anyone who is coughing and sneezing.</p>
-
-                                    </div>
+                                </div>
+                                <div>
+                                    <br>
+                                    <p class="text-justify"><strong>The COVID-19 virus CANNOT be spread through
+                                            mosquito
+                                            bites</strong><br>
+                                        To date there has been no information nor evidence to
+                                        suggest that the new coronavirus could be transmitted by mosquitoes. The new
+                                        coronavirus is a respiratory virus which spreads primarily through droplets
+                                        generated when an infected person coughs or sneezes, or through droplets of
+                                        saliva or discharge from the nose. To protect yourself, clean your hands
+                                        frequently with an alcohol-based hand rub or wash them with soap and water.
+                                        Also, avoid close contact with anyone who is coughing and sneezing.</p>
                                 </div>
                             </section>
                         </div>
 
-                        <div class="tab-pane fade show" id="v-pills-pepper" role="tabpanel"
+                        <div class="tab-pane pillclass " id="v-pills-pepper" role="tabpanel"
                             aria-labelledby="v-pills-pepper-tab">
                             <section id="pepper">
                                 <div>
                                     <h2 class="title-underline">Food</h2>
-
                                 </div>
                                 <div class="row">
                                     <div class="col-12 col-sm-3">
@@ -305,10 +300,9 @@
                                                 style="border-radius: 50%;">
                                         </div>
 
-                                        <div>
-                                        </div>
                                     </div>
-
+                                </div>
+                                <div>
                                     <br>
                                     <p class="text-justify"> <strong>Eating garlic does NOT prevent COVID-19</strong>
                                         <br>
@@ -324,17 +318,16 @@
                                         also beneficial for your general health to maintain a balanced diet, stay well
                                         hydrated, exercise regularly and sleep well.
                                     </p>
-
-
                                 </div>
-
                             </section>
                         </div>
 
-                        <div class="tab-pane" id="v-pills-mask" role="tabpanel" aria-labelledby="v-pills-mask-tab">
+                        <div class="tab-pane pillclass" id="v-pills-mask" role="tabpanel" aria-labelledby="v-pills-mask-tab">
                             <section id="mask">
-                                <div class="row">
+                                <div>
                                     <h2 class="title-underline">Mask and Exercise</h2>
+                                    </div>
+                                <div class="row">
                                     <div class="col-12 col-sm-3">
                                         <div class="text-center module-img">
                                             <img alt="Human Resource"
@@ -343,9 +336,9 @@
                                                 style="border-radius: 50%;">
                                         </div>
 
-                                        <div>
-                                        </div>
                                     </div>
+                                </div>
+                                <div>
 
                                     <br>
                                     <p class="text-justify"><strong>People should NOT wear masks while
@@ -358,11 +351,10 @@
                                         measure during exercise is to maintain physical distance of at least one meter
                                         from others.</p>
                                 </div>
-
                             </section>
                         </div>
 
-                        <div class="tab-pane" id="v-pills-methanol" role="tabpanel"
+                        <div class="tab-pane pillclass" id="v-pills-methanol" role="tabpanel"
                             aria-labelledby="v-pills-methanol-tab">
                             <section id="methanol">
                                 <div>
@@ -382,7 +374,10 @@
                                         </div>
                                     </div>
 
-                                    <br>
+                                   
+
+                                </div>
+                                <div> <br>
                                     <p class="text-justify"><strong> Drinking methanol, ethanol or bleach DOES NOT
                                             prevent or cure COVID-19 and can be extremely dangerous </strong> <br>
                                         Methanol, ethanol, and bleach are poisons. Drinking them can lead to disability
@@ -405,14 +400,11 @@
                                         Remember to keep chlorine (bleach) and other disinfectants out of reach of
                                         children.
 
-                                    </p>
-
-                                </div>
-
+                                    </p></div>
                             </section>
                         </div>
 
-                        <div class="tab-pane" id="v-pills-weather" role="tabpanel"
+                        <div class="tab-pane pillclass" id="v-pills-weather" role="tabpanel"
                             aria-labelledby="v-pills-weather-tab">
                             <section id="weather">
                                 <h2 class="title-underline">Who does Covid-19 affect?</h2>
@@ -454,8 +446,9 @@
         </div>
     </div>
 
-
-
+    <div class="topbottomclass"></div>
+    <div class="topbottomclass"></div>
+    <div class="topbottomclass"></div>
     <!--footer-->
     <footer class="topbottomclass">
         <div class="footer topbottomclass">
@@ -511,7 +504,6 @@
             </div>
         </div>
     </footer>
-
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <!-- build:js js/main.js -->

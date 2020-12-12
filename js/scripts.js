@@ -66,7 +66,12 @@ function openCategory(evt, Category1) {
 
 
 
-// hiall
+// destroyer of the universe
+$(".accordion2").on("click", ".accordion2-header", function() {
+  $(this).toggleClass("active").next().slideToggle();
+});
+
+document.getElementById("smthsmth").click();
 
 
 
