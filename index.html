@@ -91,8 +91,8 @@
   </section>
 
   <div class="container">
-    <div class="row row-content align-items-start topbottomclass">
-      <div class="col-sm-12 col-lg-7">
+    <div class="row  justify-content-center topbottomclass">
+      <div class="col-sm-12 col-lg-6">
 
 
 
@@ -107,85 +107,90 @@
 
 
       </div>
-      <div class="col-sm-12 col-lg-5">
-
-
-        <div class="row flex-column">
-          <div class="col-xl-3 col-md-3 mb-4">
-            <div class="card border-left-info shadow h-100 py-2">
-              <div class="card-body">
-                <div class="row no-gutters align-items-center">
-                  <div class="col mr-2">
-                    <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
-                      Total Cases
-                    </div>
-                    <div class="row no-gutters align-items-center">
-                      <div class="col-auto">
-                        <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800 worldData">
-                          Loading...
+      <div class="col-sm-12 col-lg-6">
+      <div class="card">
+        <div class="card-body">
+          <div class="container">
+          <div class="row flex-column">
+            <div class="col-xl-3 col-md-3 mb-4">
+              <div class="card border-left-info shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                        Total Cases
+                      </div>
+                      <div class="row no-gutters align-items-center">
+                        <div class="col-auto">
+                          <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800 worldData">
+                            Loading...
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-auto">
-                    <i class="fa fa-users fa-2x text-info"></i>
+                    <div class="col-auto">
+                      <i class="fa fa-users fa-2x text-info"></i>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div class="col-xl-3 col-md-3 mb-4">
-            <div class="card border-left-danger shadow h-100 py-2">
-              <div class="card-body">
-                <div class="row no-gutters align-items-center">
-                  <div class="col mr-2">
-                    <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">
-                      Total Death
-                    </div>
-                    <div class="row no-gutters align-items-center">
-                      <div class="col-auto">
-                        <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800 worldData">
-                          Loading...
+            
+            <div class="col-xl-3 col-md-3 mb-4">
+              <div class="card border-left-danger shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">
+                        Total Death
+                      </div>
+                      <div class="row no-gutters align-items-center">
+                        <div class="col-auto">
+                          <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800 worldData">
+                            Loading...
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-auto">
-                    <i class="fa fa-bed fa-2x text-danger"></i>
+                    <div class="col-auto">
+                      <i class="fa fa-bed fa-2x text-danger"></i>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div class="col-xl-3 col-md-3 mb-4">
-            <div class="card border-left-success shadow h-100 py-2">
-              <div class="card-body">
-                <div class="row no-gutters align-items-center">
-                  <div class="col mr-2">
-                    <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                      Total Recovered
-                    </div>
-                    <div class="row no-gutters align-items-center">
-                      <div class="col-auto">
-                        <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800 worldData">
-                          Loading...
+            
+            <div class="col-xl-3 col-md-3 mb-4">
+              <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                        Total Recovered
+                      </div>
+                      <div class="row no-gutters align-items-center">
+                        <div class="col-auto">
+                          <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800 worldData">
+                            Loading...
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-auto">
-                    <i class="fa fa-child fa-2x text-success"></i>
+                    <div class="col-auto">
+                      <i class="fa fa-child fa-2x text-success"></i>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
+        </div>
       </div>
+    </div>
+     
+
+      
     </div>
   </div>
 
@@ -376,7 +381,17 @@
   <!-- endbuild -->
 
 
-  <script>function numberWithCommas(x) {
+  <script>
+  
+  $(".accordion2").on("click", ".accordion2-header", function() {
+  $(this).toggleClass("active").next().slideToggle();
+});
+
+document.getElementById("smthsmth").click();
+  
+  
+  
+  function numberWithCommas(x) {
       return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
 
