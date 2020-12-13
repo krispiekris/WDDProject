@@ -22,7 +22,7 @@
 <body id="#bootstrap-overrides">
 
   <!--navbar-->
-  <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+  <nav id="mainNavbar" class="navbar navbar-light navbar-expand-md py-0 fixed-top">
     <a href="/index.html" class="navbar-brand"></a>
     <button onclick="my2Function()" id="my2DIV" class="navbar-toggler" data-toggle="collapse" data-target="#navLinks"
       aria-label="Toggle navigation">
@@ -71,8 +71,9 @@
   </nav>
 
 
-  <!-- JUMBROTRON -->
-  <section class="jumbotron">
+  <!-- JUMBROTRON -->   
+  <section class="jumbotron"> 
+  
 
 
 
@@ -90,6 +91,90 @@
 
   </section>
 
+  <div class="topbottomclass">
+    <div class="container ">
+  
+      <div class="row  justify-content-center ">
+  
+  
+        <div class="col-xl-3 col-md-3 mb-4">
+          <div class="card border-left-info shadow h-100 py-2">
+            <div class="card-body">
+              <div class="row no-gutters align-items-center">
+                <div class="col mr-2">
+                  <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                    Total Cases
+                  </div>
+                  <div class="row no-gutters align-items-center">
+                    <div class="col-auto">
+                      <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800 worldData">
+                        Loading...
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <i class="fa fa-users fa-2x text-info"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+  
+        </div>
+  
+        <div class="col-xl-3 col-md-3 mb-4">
+          <div class="card border-left-info shadow h-100 py-2">
+            <div class="card-body">
+              <div class="row no-gutters align-items-center">
+                <div class="col mr-2">
+                  <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                    Total Death
+                  </div>
+                  <div class="row no-gutters align-items-center">
+                    <div class="col-auto">
+                      <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800 worldData">
+                        Loading...
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <i class="fa fa-heartbeat fa-2x text-info"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-xl-3 col-md-3 mb-4">
+          <div class="card border-left-info shadow h-100 py-2">
+            <div class="card-body">
+              <div class="row no-gutters align-items-center">
+                <div class="col mr-2">
+                  <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                    Total Recovered
+                  </div>
+                  <div class="row no-gutters align-items-center">
+                    <div class="col-auto">
+                      <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800 worldData">
+                        Loading...
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <i class="fa fa-child fa-2x text-info"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+ 
   <div class="container">
     <div class="row  justify-content-center topbottomclass">
 
@@ -99,7 +184,7 @@
 
         <div class="accordion2">
 
-          <div class="accordion2-header" id="smthsmth">Et quasi architecto</div>
+          <div class="accordion2-header" id="smthsmth"><span class="accordioheadern3"></span>Et quasi architecto</div>
           <div class="accordion2-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
             doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
             beatae vitae dicta sunt explicabo.</div>
@@ -108,12 +193,8 @@
       </div>
 
     </div>
-
-
-
-
   </div>
-
+<!-- <div class="topbottomclass">
   <div class="container ">
 
     <div class="row  justify-content-center ">
@@ -146,11 +227,11 @@
       </div>
 
       <div class="col-xl-3 col-md-3 mb-4">
-        <div class="card border-left-danger shadow h-100 py-2">
+        <div class="card border-left-info shadow h-100 py-2">
           <div class="card-body">
             <div class="row no-gutters align-items-center">
               <div class="col mr-2">
-                <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">
+                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
                   Total Death
                 </div>
                 <div class="row no-gutters align-items-center">
@@ -162,7 +243,7 @@
                 </div>
               </div>
               <div class="col-auto">
-                <i class="fa fa-bed fa-2x text-danger"></i>
+                <i class="fa fa-bed fa-2x text-info"></i>
               </div>
             </div>
           </div>
@@ -170,11 +251,11 @@
       </div>
 
       <div class="col-xl-3 col-md-3 mb-4">
-        <div class="card border-left-success shadow h-100 py-2">
+        <div class="card border-left-info shadow h-100 py-2">
           <div class="card-body">
             <div class="row no-gutters align-items-center">
               <div class="col mr-2">
-                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
                   Total Recovered
                 </div>
                 <div class="row no-gutters align-items-center">
@@ -186,7 +267,7 @@
                 </div>
               </div>
               <div class="col-auto">
-                <i class="fa fa-child fa-2x text-success"></i>
+                <i class="fa fa-child fa-2x text-info"></i>
               </div>
             </div>
           </div>
@@ -195,7 +276,7 @@
     </div>
 
   </div>
-
+</div> -->
 
 
 
