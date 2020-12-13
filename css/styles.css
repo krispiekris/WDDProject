@@ -465,7 +465,7 @@ border-radius: 1em;
   line-height: 1;
   max-width: 50%;
   white-space: normal;
-  word-break: break-word;
+  word-break: normal;
   color: black;
   z-index: 100;
   font-family: 'Oswald', sans-serif;
@@ -631,7 +631,7 @@ color: #00008b;
 
 .accordion2 {
 	background: linear-gradient(to bottom right, white, #F8F8F8);
-	max-width: 400px;
+	/* max-width: 400px; */
 	background: #ADE8F4;
 	margin: 0 auto;
   box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3), 0 35px 50px -25px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
@@ -683,3 +683,15 @@ color: #00008b;
   background-color:#0095c7;
 }
 
+.textAct{
+  font-size: 2rem;
+  line-height: 1;
+  max-width: 100%;
+  white-space: normal;
+  word-break: normal ;
+  color: black;
+  z-index: 100;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+} 
