@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>News</title>
+    <title>SUSS-News</title>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,6 +16,9 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/el_GR/sdk.js#xfbml=1&version=v9.0"
+        nonce="dT7JRbdY"></script>
     <!--navbar-->
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
         <a href="/index.html" class="navbar-brand"></a>
@@ -59,9 +62,42 @@
             </ul>
         </div>
     </nav>
+
+
+
+
     <div class="topbottomclass text-center">
         <h1>News</h1>
     </div>
+    <div class="container">
+        <div class="row  align-items-center topbottomclass">
+            <div class="col-12 col-lg-6">
+
+                <!-- <div>
+                <div class="fb-page" data-href="https://www.facebook.com/CDC/" 
+                data-tabs="timeline"  data-small-header="true" 
+                data-width="" data-height="600" 
+                
+                >
+                <blockquote cite="https://www.facebook.com/CDC/" class="fb-xfbml-parse-ignore">
+                    <a href="https://www.facebook.com/CDC/">CDC</a>
+                </blockquote>
+            </div>
+                </div> -->
+
+
+
+                <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCDC%2F&tabs=timeline&width=294&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                    width="294" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+        </div>
+    </div>
+
+
+
     <div class="container">
         <div class="row row-content align-items-center topbottomclass">
             <!-- <div class="col-12 col-lg-7">
@@ -144,11 +180,11 @@
                             <p id="total_death"> </p>
                         </div>
                         <div class="box">
-                            <h2>Total Recovery</h2>
+                            <h2>Total Recovered</h2>
                             <p id="total_recovered"> </p>
                         </div>
                         <div class="box">
-                            <h2>New case</h2>
+                            <h2>New cases</h2>
                             <p id="new_case"> </p>
                         </div>
                         <div class="box">
@@ -159,42 +195,50 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-12">
-                    <iframe
-                        src="https://ourworldindata.org/coronavirus-data-explorer?zoomToSelection=true&time=earliest..2020-12-11&country=GBR~USA~ESP~ITA~BRA~IND~KOR~CHL~GRC~CYP~SWE&region=World&deathsMetric=true&interval=total&hideControls=true&perCapita=true&smoothing=0&pickerMetric=location&pickerSort=asc"
-                        loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
-                </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12">
+                <iframe
+                    src="https://ourworldindata.org/coronavirus-data-explorer?zoomToSelection=true&time=earliest..2020-12-11&country=GBR~USA~ESP~ITA~BRA~IND~KOR~CHL~GRC~CYP~SWE&region=World&deathsMetric=true&interval=total&hideControls=true&perCapita=true&smoothing=0&pickerMetric=location&pickerSort=asc"
+                    loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
             </div>
         </div>
     </div>
     <h2 class="text-center">Social Media can be a great resource</h2>
-    <div class="container">
-        <div class="row row-content align-items-center topbottomclass">
-            <!-- <iframe
-                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCDC&tabs=timeline&width=349&height=500&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=true&appId"
-                width="349" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                allowfullscreen="true"
-                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-            <a class="twitter-timeline" data-width="500" data-height="660" href="https://twitter.com/ECDC_EU">Tweets
+
+
+
+
+
+    <!-- <a class="twitter-timeline" data-width="500" data-height="660" href="https://twitter.com/ECDC_EU">Tweets
                 by
-                TwitterDev</a> -->
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            <!-- topbottomclass-->
-            <div class="col-12 col-sm-6">
-                <!-- <iframe
+                TwitterDev</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+    <!-- topbottomclass-->
+    <!-- <div class="col-12 col-sm-6">
+        <iframe
                     src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCDC&tabs=timeline&width=318&height=800&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId"
                     width="100%" height="500" scrolling="no" frameborder="0"
-                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
-            </div>
-            <div class="col-12 col-sm-6">
-                <!-- <a class="twitter-timeline" data-width="500" data-height="660" href="https://twitter.com/ECDC_EU">Tweets
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </div> -->
+    <!-- <div class="col-12 col-sm-6">
+        <a class="twitter-timeline" data-width="500" data-height="660" href="https://twitter.com/ECDC_EU">Tweets
                     by
                     TwitterDev</a>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-            </div>
-        </div>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div> -->
+    <div class="container">
         <div class="row row-content align-items-center  topbottomclass">
             <div class="col-12">
                 <p>
